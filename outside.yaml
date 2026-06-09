@@ -1,0 +1,6 @@
+# Restrict outside collaborators from admin/push access. Reports as an issue.
+optConfig:
+  optOutStrategy: true
+action: issue
+pushAllowed: false
+adminAllowed: false

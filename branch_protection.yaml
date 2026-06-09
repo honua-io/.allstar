@@ -1,0 +1,9 @@
+# Require branch protection on default branches. Reports drift as an issue (non-destructive).
+optConfig:
+  optOutStrategy: true
+action: issue
+requireApproval: true
+approvalCount: 1
+dismissStale: true
+blockForce: true
+requireUpToDateBranch: true

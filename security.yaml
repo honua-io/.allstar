@@ -1,0 +1,4 @@
+# Require a SECURITY.md (satisfied org-wide via the .github repo). Reports as an issue.
+optConfig:
+  optOutStrategy: true
+action: issue

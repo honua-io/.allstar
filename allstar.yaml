@@ -1,0 +1,10 @@
+# Allstar org-wide base config for honua-io.
+# Opt-out strategy = Allstar applies to ALL repos unless a repo explicitly opts out.
+# See https://github.com/ossf/allstar
+optConfig:
+  optOutStrategy: true
+  # Exclude archived / non-development repos from policy noise.
+  optOutRepos:
+    - Honua.Server
+    - honua-server-admin
+    - honua-iac-mirror-backup

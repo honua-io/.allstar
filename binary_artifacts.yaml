@@ -1,0 +1,4 @@
+# Flag checked-in binary artifacts (supply-chain hygiene). Reports as an issue.
+optConfig:
+  optOutStrategy: true
+action: issue

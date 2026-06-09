@@ -1,0 +1,4 @@
+# Detect dangerous GitHub Actions patterns (e.g. untrusted checkout + write). Reports as an issue.
+optConfig:
+  optOutStrategy: true
+action: issue
