@@ -1,9 +1,12 @@
 # Require branch protection on default branches. Reports drift as an issue (non-destructive).
+# Merges are automated (merge-train FF-land + dependabot) with no human PR approvals, so
+# requiring approvals does not fit this org's workflow and only produced perpetual Allstar
+# drift issues. We keep the protective settings (no force-push, up-to-date branch) and the
+# required status checks each repo configures, but do not require PR approvals.
 optConfig:
   optOutStrategy: true
 action: issue
-requireApproval: true
-approvalCount: 1
+requireApproval: false
 dismissStale: true
 blockForce: true
 requireUpToDateBranch: true
