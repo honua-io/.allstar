@@ -1,0 +1,15 @@
+{
+  "roots": [
+    ".github/",
+    ".gitignore",
+    "AGENTS.md",
+    "README.md",
+    "allstar.yaml",
+    "binary_artifacts.yaml",
+    "branch_protection.yaml",
+    "dangerous_workflow.yaml",
+    "outside.yaml",
+    "security.yaml"
+  ],
+  "gate_inputs": {}
+}
